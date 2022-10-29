@@ -4,10 +4,12 @@
 if __name__ == '__main__':
     a = int(input('enter digit (the rage is from 1 to 4): '))
     if a == 1:
-        print('its winter')
+        print('it is winter')
     elif a == 2:
-        print('its spring')
+        print('it is spring')
     elif a == 3:
-        print('its summer')
+        print('it is summer')
+    elif a == 4:
+        print('it is autumn')
     else:
-        print('its autumn')
+        print('error choose within a range')

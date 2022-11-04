@@ -6,4 +6,4 @@ if __name__ == '__main__':
     time_list = [1, 2, 3, 4, 5, 6]
     for time in time_list:
         ameba *= 2
-        print('after', time, 'hours it will be', ameba, 'cell')
+        print('after', time, 'hours it will be', ameba, 'cells')

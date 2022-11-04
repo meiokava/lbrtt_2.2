@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     # Найти сумму членов ряда.
     while math.fabs(a) > EPS:
-        a *= (x * (2*n)) / math.pow(2 * n + 1, 2)
+        a *= (x * (2*n)) / ((2 * n + 1)**2)
         S += a
         n += 1
 
